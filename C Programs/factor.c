@@ -106,6 +106,9 @@ void factor_finder(int user_input)
        factor_complete,
        factors = 1;
 
+   printf("\nHere is every factor, down to zero:");
+   printf("\n");
+
    while (factors != user_input / 2 && factors != user_input / -2 && 
           factors != 0)
    {
